@@ -1,47 +1,88 @@
 body {
-    display: flex;
-}
-
-nav {
-    position: absolute;
-    background-color: rgba(231, 233, 252, 1);
-}
-
-a {
-    display: flex;
-    padding: 16px 0px;
-    gap: 32px;
-    border-radius: 16px 16px 0px 0px;
+    font-family: "Roboto" sans-serif;
+    background-color: white;
+    color: #434455;
 }
 
 header {
-    position: absolute;
+    height: 72px;
     width: 1440px;
-    height: 600px;
-    margin-top: 72px;
-    background-color: #2E2F42;
+}
+
+.cont {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+a {
+    width: 153px;
+    height: 24px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+a:hover {
+    color: rgba(64, 75, 191, 1);
 }
 
 h1 {
     color: white;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
+    text-align: center;
+}
+
+h2 {
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
-button {
-    display: flex;
+section {
+    text-align: center;
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+}
 
+.section2 {
+    width: 1128px;
+    height: 104px;
+}
+
+.section3 {
+    width: 1440px;
+    height: 732px;
+    margin-top: 1016px;
+    display: flex;
+    background: #F4F4FD;
+
+}
+
+.section4 {}
+
+main {}
+
+
+h1 {}
+
+button {
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
     color: white;
     align-content: center;
-    margin-left: 636px;
 }
 
 button:hover {
@@ -50,4 +91,9 @@ button:hover {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
 }
 
-main {}
+footer {
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+
+}
